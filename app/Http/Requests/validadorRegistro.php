@@ -49,6 +49,7 @@ class validadorRegistro extends FormRequest
         "txtNSS"=>"required|numeric",
         "txtCURP"=>"required|max:30",
         "txtRFC"=>"required|max:30",
+        
 
         ];
 
