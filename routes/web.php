@@ -54,7 +54,7 @@ Route::delete('emple/{id}',  [ControladorEM::class, 'destroy'])->name('Empleado.
 Route::get('emple/{id}/edit',  [ControladorEM::class, 'edit'])->name('Empleado.edit');
 
 //ControladorBO
-Route::get('ban/create',  [ControladorBO::class, 'create'])->name('C_empleado.create');
+// Route::get('ban/create',  [ControladorBO::class, 'create'])->name('C_empleado.create');
 Route::post('ban', [ControladorBO::class, 'store'])->name('ban.store');
 Route::get('ban',  [ControladorBO::class, 'index'])->name('ban.index');
 Route::put('ban/{id}', [ControladorBO::class, 'update'])->name('ban.update');

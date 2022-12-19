@@ -104,7 +104,7 @@ class ControladorBO extends Controller
      */
     public function destroy($id)
     {
-        DB::table('bancos')->where('idEmpleado', $id)->delete();
+        DB::table('empleados')->where('idEmpleado', $id)->delete();
         return redirect('ban')->with('Eliminacion', "abc");
     }
 }
