@@ -1,3 +1,4 @@
+<?php
 @extends('welcome')
 @section('contenido')
     @if (session()->has('confirmado'))
